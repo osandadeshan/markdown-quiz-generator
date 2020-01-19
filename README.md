@@ -27,6 +27,11 @@ Although it is based on markdown for its style format, at the moment the followi
     - (x) True
     - ( ) False
 ```
+```text
+2. The domain of MaxSoft is test automation framework development.
+    - (x) True
+    - ( ) False 
+```
 Note that the correct answer is specified with an **x** ( x or X, upper or lower case) and must be in parentheses to specify that it is only one to be selected, for example, for false or true questions.
 
 2. **Multiple selection question**:
