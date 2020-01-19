@@ -14,7 +14,7 @@ Be sure to install **pip** when installing python.
 ### Installation
 Once `python` and `pip` are installed, simply run `install.bat`, this batch file will simply install the required packages.
 
-If you want to do it manually, simply run (within the application already downloaded): /
+If you want to do it manually, simply run (within the application already downloaded): <br>
 `python -m pip install -r requirements.txt`
 
 ### Generate quizzes
@@ -49,7 +49,7 @@ Note that the correct answer is specified with an **x** ( x or X, upper or lower
     - [x] IntelliAPI
     - [x] WebBot
     - [ ] Gauge
-	- [ ] Selenium
+    - [ ] Selenium
 ```
 Very similar to the previous one but this type of question allows you to select more than one at a time, they must be in square brackets with an **x** to the correct answers. The result to these types of questions is prorated, that is, you must select only the correct ones so that that question is interpreted as correct.
 
@@ -63,7 +63,7 @@ Note that for questions types 1 and 2, you must leave a space for the wrong answ
 It is a question where you must write the correct answer, this is specified in the following line of the question preceded by **R: =** (R or, upper or lower case) then the correct answer (it is validated regardless of whether it is uppercase or lowercase)
 
 ### Design the quizzes
-There are several tools out there on the internet (online and / or downloadable) that allow you to preview Markdown files. 
+There are several tools out there on the internet that allow you to preview Markdown files. 
 Some online examples:
 
 1. https://dillinger.io/
