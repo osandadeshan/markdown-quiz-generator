@@ -1,10 +1,10 @@
 # Markdown Quiz Generator
 It is a tool to generate quizzes from Markdown files. This means that you can structure the format of the text, bold, italic, tables, etc.
 
-Markdown <br>
+<b> Markdown: </b> <br>
 ![p1](https://raw.githubusercontent.com/osandadeshan/markdown-quiz-generator/master/app/static/sample-quiz-md-file.PNG)
 
-Quiz generated <br>
+<b> Quiz generated: </b> <br>
 ![p2](https://raw.githubusercontent.com/osandadeshan/markdown-quiz-generator/master/app/static/sample-quiz-animation.gif)
 
 ### Requirements
@@ -17,13 +17,13 @@ Once `python` and `pip` are installed, simply run `install.bat`, this batch file
 If you want to do it manually, simply run (within the application already downloaded): <br>
 `python -m pip install -r requirements.txt`
 
-### Generate quizzes
+### Generating quizzes
 The application will generate all the **.md** (Markdown) files that are inside the folder 
 `./markdown-quiz-files/**`, note that in the folder there is already a quiz (sample-quiz.md).
 
 You can add as many as you want, all will be generated in separate files.
 
-To generate the quizzes, there are two batch files,
+To generate quizzes, there are two batch files,
 1. `generar-local.bat` \
 It is a batch file that simply executes `python generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
 
