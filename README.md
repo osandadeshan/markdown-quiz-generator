@@ -1,4 +1,5 @@
 # Markdown Quiz Generator
+### Introduction
 It is a tool to generate quizzes from Markdown files. This means that you can structure the format of the text, bold, italic, tables, etc.
 
 <b> Markdown: </b> <br>
