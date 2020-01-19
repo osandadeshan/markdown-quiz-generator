@@ -1,2 +1,2 @@
 @echo off
-python generator.py embed
+python quiz-generator.py embed

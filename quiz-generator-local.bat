@@ -1,2 +1,2 @@
 @echo off
-python generator.py
+python quiz-generator.py
