@@ -25,10 +25,10 @@ You can add as many as you want, all will be generated in separate files.
 
 To generate quizzes, there are two batch files,
 1. `generar-local.bat` \
-It is a batch file that simply executes `python generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
+This is a batch file that simply executes `python generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
 
-2. `generar-embed.bat` 
-It is a batch file that simply executes `python generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
+2. `generar-embed.bat` \
+This is a batch file that simply executes `python generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
 
 The resulting quizzes will have the same name of the markdown file but with their .html extension, they will be created in the `./generated-quizzes/` folder.
 
@@ -62,7 +62,7 @@ Note that for questions types 1 and 2, you must leave a space for the wrong answ
 ```
 It is a question where you must write the correct answer, this is specified in the following line of the question preceded by **R: =** (R or, upper or lower case) then the correct answer (it is validated regardless of whether it is uppercase or lowercase)
 
-### Design the quizzes
+### Designing the quiz
 There are several tools out there on the internet that allow you to preview Markdown files. 
 Some online examples:
 
