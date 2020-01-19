@@ -18,21 +18,6 @@ Once `python` and `pip` are installed, simply run `install.bat`, this batch file
 If you want to do it manually, simply run (within the application already downloaded): <br>
 `python -m pip install -r requirements.txt`
 
-### Generating quizzes
-The application will generate all the **.md** (Markdown) files that are inside the folder 
-`./markdown-quiz-files/**`, note that in the folder there is already a quiz (sample-quiz.md).
-
-You can add as many as you want, all will be generated in separate files.
-
-To generate quizzes, there are two batch files,
-1. `generar-local.bat` \
-This is a batch file that simply executes `python generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
-
-2. `generar-embed.bat` \
-This is a batch file that simply executes `python generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
-
-The resulting quizzes will have the same name of the markdown file but with their .html extension, they will be created in the `./generated-quizzes/` folder.
-
 ### Quiz structure (Markdown)
 Although it is based on markdown for its style format, at the moment the following types of questions are supported:
 
@@ -69,3 +54,18 @@ Some online examples:
 
 1. https://dillinger.io/
 2. https://markdownlivepreview.com/
+
+### Generating quizzes
+The application will generate all the **.md** (Markdown) files that are inside the folder 
+`./markdown-quiz-files/**`, note that in the folder there is already a quiz (sample-quiz.md).
+
+You can add as many as you want, all will be generated in separate files.
+
+To generate quizzes, there are two batch files,
+1. `generar-local.bat` \
+This is a batch file that simply executes `python generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
+
+2. `generar-embed.bat` \
+This is a batch file that simply executes `python generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
+
+The resulting quizzes will have the same name of the markdown file but with their .html extension, they will be created in the `./generated-quizzes/` folder.
