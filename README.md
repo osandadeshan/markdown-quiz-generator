@@ -1,11 +1,11 @@
 # Markdown Quiz Generator
-It is a tool to generate quiz from a Markdown file. This means that you can structure the format of the text, bold, italic, tables, etc.
+It is a tool to generate quizzes from Markdown files. This means that you can structure the format of the text, bold, italic, tables, etc.
 
 Markdown <br>
-![p1](https://raw.githubusercontent.com/wlisesrivas/markdown-test-generator/development/app/static/sample-md.png)
+![p1](https://raw.githubusercontent.com/osandadeshan/markdown-quiz-generator/master/app/static/sample-quiz-md-file.PNG)
 
 Quiz generated <br>
-![p2](https://raw.githubusercontent.com/wlisesrivas/markdown-test-generator/development/app/static/sample-animation.gif)
+![p2](https://raw.githubusercontent.com/osandadeshan/markdown-quiz-generator/master/app/static/sample-quiz-animation.gif)
 
 ### Requirements
 [Python-3.7.x](https://www.python.org/downloads/release/python-374/) <br>
