@@ -67,10 +67,20 @@ The application will generate all the **.md** (Markdown) files that are inside t
 You can add as many as you want, all will be generated in separate files.
 
 To generate quizzes, there are two batch files,
-1. `generar-local.bat` \
-This is a batch file that simply executes `python generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
+1. `quiz-generator-local.bat` \
+This is a batch file that simply executes `python quiz-generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
 
-2. `generar-embed.bat` \
-This is a batch file that simply executes `python generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
+2. `quiz-generator-local-server.bat` \
+This is a batch file that executes, 
+```
+python quiz-generator.py
+cd generated-quizzes
+start http://localhost:8000/
+python -m http.server 8000
+```
+This is almost same as `quiz-generator-local.bat`. The only difference is, this will spin up a new local server for your quizzes at http://localhost:8000/
+
+3. `quiz-generator-embed.bat` \
+This is a batch file that simply executes `python quiz-generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
 
 The resulting quizzes will have the same name of the markdown file but with their .html extension, they will be created in the `./generated-quizzes/` folder.
