@@ -62,9 +62,9 @@ Some online examples:
 
 ### Generating quizzes
 The application will generate all the **.md** (Markdown) files that are inside the folder 
-`./markdown-quiz-files/**`, note that in the folder there is already a quiz (sample-quiz.md).
+`./markdown-quiz-files/**`. Note that this folder already has a default quiz (sample-quiz.md).
 
-You can add as many as you want, all will be generated in separate files.
+You can add as many as Markdown files you want, and each of them will be generated separate quizzes.
 
 To generate quizzes, there are two batch files,
 1. `quiz-generator-local.bat` \
