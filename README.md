@@ -9,13 +9,10 @@ It is a tool to generate quizzes from Markdown files. This means that you can st
 ![p2](https://raw.githubusercontent.com/osandadeshan/markdown-quiz-generator/master/app/static/sample-quiz-animation.gif)
 
 ### Requirements
-[Python-3.7.x](https://www.python.org/downloads/release/python-374/) <br>
-Be sure to install **pip** when installing python.
+install.bat - automatically download and install all requirements and dependencies <br> ([Python-3.11.x](https://www.python.org/), [pip](https://pypi.org/project/pip/) )
 
-### Installation
-Once `python` and `pip` are installed, simply run `install.bat`, this batch file will simply install the required packages.
-
-If you want to do it manually, simply run (within the application already downloaded): <br>
+### Manual Installation
+Once `python` and `pip` are installed, simply run (within the application already downloaded): <br>
 `python -m pip install -r requirements.txt`
 
 ### Quiz structure (Markdown)
