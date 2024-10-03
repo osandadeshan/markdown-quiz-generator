@@ -10,7 +10,7 @@ from jinja2 import Environment, PackageLoader, select_autoescape
 # Render the result including jQuery, Bootstrap.
 WRAPPER_RENDER = True
 LOOKUP_FOLDER = './markdown-quiz-files'
-OUTPUT_FOLDER = 'generated-quizzes'
+OUTPUT_FOLDER = './docs'
 
 
 def render_test(file_name: str, markdown_content: str) -> None:
