@@ -1,12 +1,17 @@
 .idea/
 venv/
 
-app/__pycache__/__init__.cpython-311.pyc
 
-app/extensions/__pycache__/__init__.cpython-311.pyc
 
-app/extensions/__pycache__/checkbox.cpython-311.pyc
-
-app/extensions/__pycache__/radio.cpython-311.pyc
-
-app/extensions/__pycache__/textbox.cpython-311.pyc
+app/__pycache__/__init__.cpython-312.pyc
+app/extensions/__pycache__/__init__.cpython-312.pyc
+app/extensions/__pycache__/checkbox.cpython-312.pyc
+app/extensions/__pycache__/radio.cpython-312.pyc
+app/extensions/__pycache__/textbox.cpython-312.pyc
+app/static/deploy-to-github-pages.png
+app/static/deployed-website.png
+app/static/ghpages-visit-site.png
+app/static/github-actions.png
+app/static/sample-quiz-animation copy.gif
+app/static/sample-quiz-md-file copy.PNG
+docs/
