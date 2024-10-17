@@ -1,21 +1,31 @@
 # Markdown Quiz Generator
-### Introduction
+
+## Introduction
 It is a tool to generate quizzes from Markdown files. This means that you can structure the format of the text, bold, italic, tables, etc.
 
-<b> Markdown: </b> <br>
+**Markdown**:
 ![p1](https://raw.githubusercontent.com/osandadeshan/markdown-quiz-generator/master/app/static/sample-quiz-md-file.PNG)
 
-<b> Quiz generated: </b> <br>
+**Quiz**:
 ![p2](https://raw.githubusercontent.com/osandadeshan/markdown-quiz-generator/master/app/static/sample-quiz-animation.gif)
 
-### Requirements
-install.bat - automatically download and install all requirements and dependencies <br> ([Python-3.12.x](https://www.python.org/), [pip](https://pypi.org/project/pip/) )
+---
 
-### Manual Installation
-Once `python` and `pip` are installed, simply run (within the application already downloaded): <br>
-`python -m pip install -r requirements.txt`
+## Requirements
+**install.bat** - Automatically download and install all requirements and dependencies ([Python-3.12.x](https://www.python.org/), [pip](https://pypi.org/project/pip/))
 
-### Quiz structure (Markdown)
+---
+
+## Manual Installation
+Once `python` and `pip` are installed, simply run (within the application already downloaded):
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+---
+
+## Quiz structure (Markdown)
 Although it is based on markdown for its style format, at the moment the following types of questions are supported:
 
 1. **Question of a selection**:
@@ -50,39 +60,49 @@ Note that for questions types 1 and 2, you must leave a space for the wrong answ
 ```
 It is a question where you must write the correct answer, this is specified in the following line of the question preceded by **R: =** (R or, upper or lower case) then the correct answer (it is validated regardless of whether it is uppercase or lowercase)
 
-### Designing the quiz
+---
+
+## Designing the quiz
 There are several tools out there on the internet that allow you to preview Markdown files. 
 Some online examples:
 
 1. https://dillinger.io/
 2. https://markdownlivepreview.com/
 
-### Generating quizzes
-The application will generate all the **.md** (Markdown) files that are inside the folder 
-`./markdown-quiz-files/**`. Note that this folder already has a default quiz (sample-quiz.md).
+---
+
+## Generating quizzes
+The application will generate all the **.md** (Markdown) files that are inside the folder `./markdown-quiz-files/**`. Note that this folder already has a default quiz (sample-quiz.md).
 
 You can add as many as Markdown files you want, and each of them will be generated separate quizzes.
 
 To generate quizzes, there are two batch files,
-1. `quiz-generator-local.bat` \
+1. `quiz-generator-local.bat`
+
 This is a batch file that simply executes `python quiz-generator.py` and will generate the quizzes including the required libraries (Bootstrap, jQuery) to execute it independently in the browser (usually to verify that everything is fine).
 
-2. `quiz-generator-local-server.bat` \
+2. `quiz-generator-local-server.bat`
+
 This is a batch file that executes, 
+
 ```
 python quiz-generator.py
 cd docs
 start http://localhost:8000/
 python -m http.server 8000
 ```
+
 This is almost same as `quiz-generator-local.bat`. The only difference is, this will spin up a new local server for your quizzes at http://localhost:8000/
 
-3. `quiz-generator-embed.bat` \
+3. `quiz-generator-embed.bat`
+
 This is a batch file that simply executes `python quiz-generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
 
 The resulting quizzes will have the same name of the markdown file but with their .html extension, they will be created in the `./docs/` folder.
 
-### Deploy GitHub Pages
+---
+
+## Deploy GitHub Pages
 
 1. Deploy the `/docs/` directory to GitHub pages to serve publicly on the web. After creating a quiz in the `/docs/` directory, add a link to the `/docs/index.html` file.
 
