@@ -118,4 +118,4 @@ The resulting quizzes will have the same name of the markdown file but with thei
 
 **Note**: The **index.html** will provide links to available quizzes.
 
-[Deployed Quiz App](https://osandadeshan.github.io/markdown-quiz-generator/)
+**Deployed Quiz App**: https://osandadeshan.github.io/markdown-quiz-generator/
