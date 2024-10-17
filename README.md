@@ -84,22 +84,18 @@ The resulting quizzes will have the same name of the markdown file but with thei
 
 ### Deploy GitHub Pages
 
-Deploy the `/docs/` directory to GitHub pages to serve publicly on the web. After creating a quiz in the `/docs/` directory, add a link to the `/docs/index.html` file.
+1. Deploy the `/docs/` directory to GitHub pages to serve publicly on the web. After creating a quiz in the `/docs/` directory, add a link to the `/docs/index.html` file.
 
-![add link to new quiz](./app/static/add-links-to-index.png)
+2. Go to Settings in your GitHub repository. Select **Pages** on the left navigation bar.  Select **Deploy from a Branch**.  Then select the **docs** directory to deploy from.
 
-Go to Settings in your GitHub repository. Select **Pages** on the left navigation bar.  Select **Deploy from a Branch**.  Then select the **docs** directory to deploy from.
+3. Once you've set up GitHub Pages, you can navigate to **Actions** and follow the progress of the deployment.  If the deployment is successful, you'll see the green dot as show below.
 
-![deploy from docs directory](./app/static/deploy-to-github-pages.png)
+![image](https://github.com/user-attachments/assets/f4290cb3-4560-4174-a6c6-2776ab9faec7)
 
-Once you've set up GitHub Pages, you can navigate to **Actions** and follow the progress of the deployment.  If the deployment is successful, you'll see the green dot as show below.
+4. Return to **Settings/Pages** to find the link to the deployed web site.
 
-![check deployment process](./app/static/github-actions.png)
+![image](https://github.com/user-attachments/assets/fac9a6e5-db6e-4807-8fd2-a814280f0ae0)
 
-Return to **Settings/Pages** to find the link to the deployed web site.
+**Note**: The **index.html** will provide links to available quizzes.
 
-![visit deployed website](./app/static/ghpages-visit-site.png)
-
-The **index.html** will provide links to available quizzes.
-
-![deployed website](./app/static/deployed-website.png)
+![Deployed Quiz App](https://osandadeshan.github.io/markdown-quiz-generator/)
